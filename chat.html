@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script_chat.js" defer></script>
+</head>
+
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="flex justify-center align-center">
+            <h2>Welcome <span class="user_name"> <!-- user name--> </span></h2>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <div class="container nav_div">
+
+        <div class="nav_toggle">
+            <svg class="toggle" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 432 384"><path fill="#000000" d="M0 336v-48h432v48zm0-120v-48h432v48zM0 48h432v48H0z"/></svg>
+            <svg class="close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="#000000" fill-rule="evenodd" d="M4.28 3.22a.75.75 0 0 0-1.06 1.06L6.94 8l-3.72 3.72a.75.75 0 1 0 1.06 1.06L8 9.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L9.06 8l3.72-3.72a.75.75 0 0 0-1.06-1.06L8 6.94z" clip-rule="evenodd"/></svg>
+        </div>
+
+        <div class="nav_menu">
+            <ul>
+                <li>
+                    <a class="title" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="title" href="chat.html">Chat</a>
+                </li>
+                <li>
+                    <a class="title" href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <a class="title" href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="logOut">
+            <li>
+                <a class="title" href="logIn.html">LogOut</a>
+            </li>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <div class="container register">
+        <div class="info_div gap20">
+
+            <div class="chat_box"></div>
+
+            <div class="insert_text">
+                <textarea class="text_input" placeholder="Type your message here..."></textarea>
+                <div class="send_svg">
+                    <svg class="send" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                        <g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#000000" d="M20.25 3.532a1 1 0 0 1 1.183 1.329l-6 15.5a1 1 0 0 1-1.624.362l-3.382-3.235l-1.203 1.202c-.636.636-1.724.186-1.724-.714v-3.288L2.309 9.723a1 1 0 0 1 .442-1.691l17.5-4.5Zm-2.114 4.305l-7.998 6.607l3.97 3.798zm-1.578-1.29L4.991 9.52l3.692 3.53l7.875-6.505Z"/></g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+</body>
+</html>

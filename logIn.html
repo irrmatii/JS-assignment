@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=3.0">
+
+  <title>Log In</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script_logIn.js" defer></script>
+</head>
+
+<body>
+
+<nav>
+  <div class="container nav_div">
+    <div class="nav_toggle">
+      <svg class="toggle" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 432 384"><path fill="#000000" d="M0 336v-48h432v48zm0-120v-48h432v48zM0 48h432v48H0z"/></svg>
+      <svg class="close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="#000000" fill-rule="evenodd" d="M4.28 3.22a.75.75 0 0 0-1.06 1.06L6.94 8l-3.72 3.72a.75.75 0 1 0 1.06 1.06L8 9.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L9.06 8l3.72-3.72a.75.75 0 0 0-1.06-1.06L8 6.94z" clip-rule="evenodd"/></svg>
+    </div>
+
+    <div class="nav_menu">
+      <ul>
+        <li>
+          <a class="title" href="logIn.html">LogIn</a>
+        </li>
+        <li>
+          <a class="title" href="register.html">SignUp</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="container register">
+    <div class="form">
+      <div class="grow1"></div>
+
+      <div class="grow1 input_div">
+        <div class="bottom_line">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16">
+            <g class="email" fill="rgba(255, 255, 255, 0.8)">
+              <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+              <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39c-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63c-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434c.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791c.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744c-.354 0-.581-.215-.581-.8Z" />
+            </g>
+          </svg>
+          <input class="info_input" type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="error"></div>
+      </div>
+
+      <div class="grow1 input_div">
+        <div class="bottom_line">
+          <svg class="custom-svg" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32">
+            <g class="password" fill="none" stroke="rgba(255, 255, 255, 0.8)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+              <path d="M5 15v15h22V15Zm4 0C9 9 9 5 16 5s7 4 7 10m-7 5v3"/>
+              <circle cx="16" cy="24" r="1"/>
+            </g>
+          </svg>
+          <input class="info_input" type="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="error"></div>
+      </div>
+
+      <div class="grow1 input_div">
+        <button class="logIn_btn">Log In
+          <svg class="arrow_svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#000000" d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10z"/></svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
